@@ -1,21 +1,21 @@
 class Runy < Formula
   desc "The runy application"
   homepage "https://github.com/s-panferov/runy"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/s-panferov/runy/releases/download/runy-0.1.0/runy-aarch64-apple-darwin.tar.xz"
-      sha256 "d2027ff387e8719c207434bd827f3f7fe3fa400cd4ead79c9fa603f19d4de566"
+      url "https://github.com/s-panferov/runy/releases/download/runy-0.2.0/runy-aarch64-apple-darwin.tar.xz"
+      sha256 "2ed642a1e0b4a49ba0e152ff3da8d52857b567ff959acd67ce4e57f113725423"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/s-panferov/runy/releases/download/runy-0.1.0/runy-x86_64-apple-darwin.tar.xz"
-      sha256 "df12e2aed02ad4cf2918a9c1146cfdb51ac1a5eade292e7094082705f30e7320"
+      url "https://github.com/s-panferov/runy/releases/download/runy-0.2.0/runy-x86_64-apple-darwin.tar.xz"
+      sha256 "e662e830622c41eccffdd6dc832ec97d8dc67c707899796e418f618757b911a3"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/s-panferov/runy/releases/download/runy-0.1.0/runy-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "3cc387aaeebcc2554a8310f8c4256d38d5e6f9442f3d4ac7a13af77a1f941bd6"
+      url "https://github.com/s-panferov/runy/releases/download/runy-0.2.0/runy-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "6805530fce72e1e351cb6ff4af1c72f2170b7a1436671cd7ea2b2a8721156912"
     end
   end
 
